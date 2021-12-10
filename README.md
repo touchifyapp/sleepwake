@@ -6,6 +6,11 @@
 
 This program is available to download on Github: [Download here](https://github.com/touchifyapp/sleepwake/releases/latest).
 
+## Guides
+
+- [Enable/Disable Wake Timers in Windows 10](https://github.com/touchifyapp/sleepwake/wiki/How-to-Enable-or-Disable-Wake-Timers-in-Windows-10)
+- [Automatically sleep and wake using Task Scheduler](https://github.com/touchifyapp/sleepwake/wiki/How-to-set-up-sleepwake-to-automatically-sleep-and-wake-the-system-using-Task-Scheduler)
+
 ## Usage
 
 ```bash
@@ -23,7 +28,6 @@ sleepwake.exe -w 01:00 -h
 | `--wake`, `-w` | **Required.** Set the time to wait before waking up the system. |
 | `--sleep`, `-s` | Put the system in sleep (S3) mode. |
 | `--hibernate`, `-h` | Put the system in hibernate (S4) mode. |
-
 
 ## Compatibility
 
